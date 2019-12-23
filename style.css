@@ -15,34 +15,39 @@
 	height: 200px;
 	border-radius: 10px;
 	margin: 5px 0.5%;
+
+	background: no-repeat;
+	background-size: cover;
+
 }
 
+.a1{
+	background-image: url("img/1.jpg");
+}
+.a2{
+	background-image: url("img/2.jpg");
+}
+.a3{
+	background-image: url("img/3.jpg");
+}
 .a4{
 	float: left;
-	clear: left;	
+	clear: left;
+	background-image: url("img/4.jpg");
 }
 .a5{
 	float: left;
 	clear: left;
-}
-.a5 img{
-	//width: 120%;
+	background-image: url("img/5.jpg");
 }
 .a6{
 	width: 62%;
 	height: 410px;
-	
-}
-.a6 img{
-	//width: 120%;
+	background-image: url("img/6.jpg");
 }
 .a7{
 	clear: left;
 	width: 93%;
 	height: 400px;
-}
-
-img{
-	width: 100%;
-	//height: 100%;
+	background-image: url("img/7.jpg");
 }
